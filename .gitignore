@@ -2,3 +2,7 @@
 
 /Servers/
 /.git/
+/AMM/.settings/
+/AMM/target/
+/AMM/.classpath
+/AMM/.project
