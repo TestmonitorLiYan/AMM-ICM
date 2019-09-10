@@ -1,0 +1,16 @@
+<template>
+  <div id="nnn">
+   
+    <p>123456πÛ‘⁄≥¢ ‘£°</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
+<style>
+
+</style>
