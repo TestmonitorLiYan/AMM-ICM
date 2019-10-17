@@ -4,11 +4,17 @@ server:
 #        max-threads: 1000
 #        min-spare-threads: 30
   port: 80
+prop:
+  upload-folder: D:/test/
 logging:
   level:
     root: info
     ORG.AMM.ICM: debug
 spring:
+  devtools:
+    restart:
+      additional-paths: src/main/java
+      exclude: static/**,public/**
   datasource:
     # type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: oracle.jdbc.OracleDriver

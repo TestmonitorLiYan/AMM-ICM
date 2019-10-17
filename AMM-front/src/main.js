@@ -9,8 +9,15 @@ import HelloWorld from './components/HelloWorld'
 import myapp from './components/myapp'
 import login from './components/login'
 import zhuce from './components/zhuce'
+import axios from 'axios'
+import ElementUI from 'element-ui'
+
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUI)
 //告诉vue使用vue-router路由组件
 Vue.use(VueRouter)
+Vue.prototype.$axios = axios
 //定义路由表
 const routes = [
   //将根URL加入到路由表并声明对应Hello组件.

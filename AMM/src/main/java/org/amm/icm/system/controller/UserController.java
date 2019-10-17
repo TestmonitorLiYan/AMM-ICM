@@ -29,7 +29,7 @@ public class UserController {
 	public JSONObject listUser(HttpServletRequest request) {
 		return userService.listUser(CommonUtil.request2Json(request));
 	}
-
+	
 	@RequiresPermissions("user:add")
 	@PostMapping("/addUser")
 	public JSONObject addUser(@RequestBody JSONObject requestJson) {

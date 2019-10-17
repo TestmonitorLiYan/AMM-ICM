@@ -2,7 +2,6 @@
   <div id='div1'>
     <p>ำรปงร๛ฃบ<input :value="username"></input></p>
     <p>รÜย๋ฃบ<input :value="password" type="password"></input></p>
-    <el-progress :text-inside="true" :stroke-width="26" :percentage="70"></el-progress>
   </div>
 </template>
 
